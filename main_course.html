@@ -1,0 +1,297 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COOKING RECIPE BOOK </title>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+        crossorigin="anonymous">
+        <style>
+          .card{
+            background-color: antiquewhite;
+          }
+          body{
+            background-color: antiquewhite;
+          }
+        </style>
+</head>
+<body >
+   
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+      crossorigin="anonymous">
+    </script> 
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgb(230, 217, 189);">
+        <div class="container-fluid">
+            <div class="logo"><h3>COOK BOOK</h3></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Meal Type
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="breakfast.html">Breakfast</a></li>
+                  <li><a class="dropdown-item" href="main_course.html">Main course</a></li>
+                  
+                  <li><a class="dropdown-item" href="dessert.html">Dessert</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="restrunt_recommendation.html">Restrunt Recommendation</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      
+      <div style="position: relative;">
+        <img src="./assets/rest.png" class="img-fluid" alt="rest" style="height: 50rem; width: 150rem;">  
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 60px;">
+          <p>MAIN COURSE FOOD MENU</p>
+        
+        </div>
+    </div>
+
+    <div class="container">
+        <!--Row with three equal columns-->
+        <div class="row" >
+            <div class="col-md-4">
+                <div class="demo-content">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/dorowat.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Doro Wat:</h5>
+                            <p class="card-text">Recipe: In a large pot, sauté onions, garlic, and ginger until fragrant. Add berbere spice and cook for a few minutes. Add chicken pieces and brown them. Pour in water, cover, and simmer until the chicken is cooked. Stir in a spiced butter called niter kibbeh and simmer to thicken the sauce. Serve with injera.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           
+                            <li class="list-group-item">Tips: For added flavor, marinate the chicken in lemon juice and salt before cooking.
+                            </li>
+                            <li class="list-group-item">Spices: Berbere spice, niter kibbeh.</li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content bg-alt">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/kitfo.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Kitfo:</h5>
+                            <p class="card-text">Recipe: Finely chop lean beef and mix it with spiced butter, mitmita (a spicy chili powder), and salt. In a pan, heat spiced butter and lightly cook the beef mixture until heated through. Serve with injera and a side of fresh cheese and greens.</p>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Tips: Adjust the amount of mitmita to your preferred level of spiciness, and make sure the beef is fresh and of high quality.</li>
+                            <li class="list-group-item"> Spices: Spiced butter, mitmita.
+                            </li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/tibs.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tibs:</h5>
+                            <p class="card-text">Recipe: Sauté thinly sliced beef or lamb with onions, garlic, and green peppers in a hot pan with oil. Season with salt, pepper, and often a dash of berbere spice. Cook until the meat is tender and the flavors meld together. Serve with injera or bread.</p>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Tips: For a twist, you can add diced tomatoes or a splash of lemon juice at the end of cooking for a tangy flavor.</li>
+                            <li class="list-group-item"> Spices: Berbere spice (optional), salt, pepper.</li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="demo-content">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/misr.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Misir Wat:</h5>
+                            <p class="card-text">Recipe: In a pot, sauté onions, garlic, and ginger until softened. Add berbere spice and cook for a minute. Add red lentils, water, and simmer until the lentils are tender. Season with salt and simmer until the flavors meld together. Serve with injera or rice. </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           
+                            <li class="list-group-item">Tips: To enhance the texture, you can partially puree the lentils or leave them whole, according to your preference. </li>
+                            <li class="list-group-item">Berbere spice, salt.</li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content bg-alt">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/alicha.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alicha Wot:</h5>
+                            <p class="card-text">Recipe: Sauté onions, garlic, and ginger until softened. Add turmeric, paprika, and a pinch of cinnamon. Stir in cubed meat (such as beef or lamb) and cook until browned. Add water, cover, and simmer until the meat is tender. Serve with injera or bread.</p>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Tips: You can add vegetables like carrots or potatoes to make it more hearty and nutritious.</li>
+                            <li class="list-group-item"> Spices: Turmeric, paprika, cinnamon. </li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/zilzil.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Zilzil Tibs:</h5>
+                            <p class="card-text">Recipe: Marinate thinly sliced beef or lamb with lemon juice, garlic, ginger, and spices like berbere or paprika. Let it sit for at least 30 minutes. In a hot skillet, sauté the marinated meat with onions, bell peppers, and tomatoes until cooked to your desired level of doneness. Serve with injera or bread.</p>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Tips: For added flavor, you can sprinkle with chopped fresh herbs like parsley or cilantro before serving.</li>
+                            <li class="list-group-item"> Spices: Berbere spice, paprika, garlic, ginger.</li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="demo-content">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/gomen.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gomen:</h5>
+                            <p class="card-text"> Recipe: Sauté onions, garlic, and ginger in a pan until fragrant. Add chopped collard greens and cook until wilted. Season with salt, pepper, and spices like turmeric or cumin. Simmer until the flavors meld together. Serve as a side dish with injera or bread.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                           
+                            <li class="list-group-item">Tips: You can add diced tomatoes or a splash of lemon juice for a tangy twist.</li>
+                            <li class="list-group-item">Spices: Turmeric, cumin, salt, pepper.</li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content bg-alt">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/sigawot.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sega Wat:</h5>
+                            <p class="card-text">Recipe: In a large pot, sauté onions, garlic, and ginger until softened. Add cubed beef and brown it on all sides. Stir in berbere spice, tomato paste, and a little water. Cover and simmer until the beef is tender and the flavors develop. Adjust the seasoning with salt and pepper. Serve with injera or rice.</p>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Tips: You can add chopped potatoes or carrots for a heartier stew.</li>
+                            <li class="list-group-item"> Spices:Berbere spice, salt, pepper. </li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="demo-content">
+                    <div class="card" style="width: 450px;">
+                        <img src="./assets/shiro.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Shiro Wat:</h5>
+                            <p class="card-text">Recipe: In a saucepan, heat oil and sauté onions until translucent. Add berbere spice and stir for a minute. Mix in shiro powder (a blend of ground legumes) and water to form a smooth paste. Simmer until the flavors meld together and the sauce thickens. Adjust the seasoning with salt and spices. Serve with injera or bread. </p>
+                            
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            
+                            <li class="list-group-item">Tips:You can add chopped tomatoes or a dollop of niter kibbeh for extra richness.</li>
+                            <li class="list-group-item">Spices: Berbere spice, shiro powder, salt, additional spices as desired.</li>
+                            
+                            
+                          </ul>
+                          <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+     
+
+     
+
+      
+</body>
+</html>
